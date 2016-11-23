@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ganesha
+  host: ganesha
+  disk_quota: 1024M
+  services:
+  - ganesha-cloudantNoSQLDB
+  - availability-monitoring-auto
